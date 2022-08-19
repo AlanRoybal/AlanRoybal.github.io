@@ -63,3 +63,10 @@ h3 {
     text-align: center;
     font-size: 26px;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
