@@ -53,3 +53,13 @@ h3 {
   display: table;
   clear: both;
 }
+
+.phome {
+    text-align: center;
+    font-size: 26px;
+}
+
+.aboutme {
+    text-align: center;
+    font-size: 26px;
+}
