@@ -104,3 +104,27 @@ header h4 {
     transform: translate(-50%, -50%);
     color: #ffffff;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+#top {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: var(--dark-blue);
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#to-top {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
