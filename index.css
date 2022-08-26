@@ -1,3 +1,7 @@
+style {
+    display: block;
+}
+
 * {box-sizing: border-box}
 body, html {
     height: 100%;
@@ -109,22 +113,26 @@ html {
     scroll-behavior: smooth;
 }
 
-#top {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    padding: 10px 20px;
-    background-color: var(--dark-blue);
-    color: white;
-    font-size: 14px;
-    font-weight: normal;
-    text-decoration: none;
-    border-radius: 20px;
-}
-
 #to-top {
     position: fixed;
     bottom: 10px;
     left: 10px;
 }
 
+#to-top:hover {
+    background-color: #FADFCA;
+}
+
+#to-top {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #3a6562;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
