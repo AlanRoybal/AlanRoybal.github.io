@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>Digital Portfolio</title>
+  </head>
+  <body>
+    <div class="btn-group">
+    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+    <button class="tablink" onclick="openPage('About Me', this, 'green')" id="defaultOpen">About Me</button>
+    <button class="tablink" onclick="openPage('Previous Classes', this, 'blue')">Previous Classes</button>
+    <button class="tablink" onclick="openPage('ISP', this, 'orange')">ISP</button>
+    </div>
+    <div id="Home" class="tabcontent">
+      <h3>Home</h3>
+      <p>I am Alan</p>
+    </div>
+
+    <div id="About Me" class="tabcontent">
+      <h3>About Me</h3>
+      <p>I am Alan</p>
+    </div>
+
+    <div id="Previous Classes" class="tabcontent">
+      <h3>Previous Classes</h3>
+      <p>Agricultural Sciences</p>
+    </div>
+
+    <div id="ISP" class="tabcontent">
+      <h3>ISP</h3>
+      <p>I made a mirror</p>
+    </div>
+
+    <script>
+      function openPage(pageName,elmnt,color) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+	      tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablink");
+	  for (i = 0; i < tablinks.length; i++) {
+	      tablinks[i].style.backgroundColor = "";
+	  }
+	  document.getElementById(pageName).style.display = "block";
+	  elmnt.style.backgroundColor = color;
+      }
+      document.getElementById("defaultOpen").click();
+      </script>
+</body>
+</html>
