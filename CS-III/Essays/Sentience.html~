@@ -11,99 +11,10 @@
   </head>
   <body>
 	<div class="btn-group">
-	  <button class="button" onclick="openPage('Home')" id="defaultOpen">Home</button>
-	  <button class="button" onclick="openPage('AboutMe')">About Me</button>
-	  <button class="button" onclick="openPage('PreviousClasses')">Previous Classes</button>
-	  <button class="button" onclick="openPage('ISP')">ISP</button>
-	  <button class="button" onclick="openPage('Fingerprints')">Fingerprints</button>
-	  <a class="button" href="CS-III/Essays/AI Sentience.html">AI Sentience</a>
+	  	  <a class="button" href="index.html">Home</a>
 	</div>
-	<div id="Home" class="tabcontent">
-	  <h3>Welcome to my Digital Portfolio</h3>
-	  <p style="text-align:center">I do computer stuff</p>
-	  <p class="phome"> Hello, and welcome to my digital portfolio! Here you'll learn a bit about me and what makes me so great (but that should be obvious). This digital portfolio is important to me as it shows my growth and progression the past few years as I went from a novice computer science student to an individual with their foot in the game.</p>
-	  <p class="phome">Last year in computer science I learned a lot about how act like a person in the workplace environment. With our sudoku project, I learned how to work together as a team to meet our goals. With our schedule app project, I learned the struggle of putting a team on my back but some necessary skills such as CSS and HTML. And finally I had our ISP project where I learned how to mix my coding projects with actual hardware (which can be seen in the ISP tab).
-	</div>
-
-	<div id="AboutMe" class="tabcontent">
-	  <h3>About Me</h3>
-	  <div class="row">
-	    <div class="column" style="background-color:#193634;">
-	      <p>I am Alan</p>
-	      <img src="digportpic.jpg" alt="Mountain" style="width:100%; max-width:800px">
-	    </div>
-	    <div class="column" style="background-color:#193634;">
-	      
-	      <p class="aboutme">Hi! My name is Alan Roybal but you may know me as Mr. Ben's favorite. I was born January 30, 2005 in Los Angeles California. I've lived the majority of my life in Allen, Texas and attend Allen High School currently. I am part of the International Baccalaureate program, a computer science 3 student, and a swim captain. Some of my hobbies are videogames, going to the gym, playing piano, and hanging out with friends.</p>
-	    </div>
-	  </div>
-
-	</div>
-
-	<div id="PreviousClasses" class="tabcontent">
-	  <h3>Previous Classes</h3>
-	  <div style="font-size: 26px">
-	    <ul>
-	      <li>Computer Science 1</li>
-	      <li>Computer Science 2</li>
-	      <li>Computer Science 3</li>
-	      <li>BC Calculus - Score : 5</li>
-	      <li>IB HL Year 2 Math Analysis</li>
-	      <li>IB Physics SL</li>
-	    </ul>
-	  </div>
-	</div>
-
-	<div id="ISP" class="tabcontent">
-	  <h3>ISP</h3>
-	  <div class="row">
-	    <div class="column" style="background-color:#193634; min-width:800px; min-height:500px;">
-	      <p>I made a mirror</p>
-	      <pre>
-		<code>
-		  # Describing each possible event 
-		  def process_event(event):
-		  # Clarifies that Google Assistant is connected and responding
-		  if event.type == EventType.ON_CONVERSATION_TURN_STARTED:
-		  print('Google Assistant is listening to you now.')
-		  GPIO.output(PIN_LED, GPIO.HIGH)
-		  # Response following user audio input
-		  if event.type == EventType.ON_RECOGNIZING_SPEECH_FINISHED:
-		  print("You:", event.args['text'])
-		  # Signaling that response has been received
-		  if event.type == EventType.ON_ALERT_STARTED:
-		  print('An alert has started sounding.')
-		  if event.type == EventType.ON_ALERT_FINISHED:
-		  print('The alert has finished sounding.')
-		  # Google Assistant has received response and is processing it
-		  if (event.type == EventType.ON_CONVERSATION_TURN_FINISHED and
-		  event.args and event.args['with_follow_on_turn'] == True):
-		  #print('Google Assistant is listening to your response.')
-		  pass
-		  # In event of unclear statement
-		  if event.type == EventType.ON_END_OF_UTTERANCE:
-		  print('Google Assistant may not have understood what you has said')
-		  # Terminates interaction with Google Assistant
-		  if (event.type == EventType.ON_CONVERSATION_TURN_FINISHED and
-		  event.args and event.args['with_follow_on_turn'] == False):
-		  print('Conversation finished.')
-		  #causes leds on google home to go off
-		  GPIO.output(PIN_LED, GPIO.LOW)
-
-		</code>
-	      </pre>
-	    </div>
-	    <div class="column" style="background-color:#193634;">
-	      <img src="isppic.jpg" alt="Mountain" class="center">
-	      <p>Concept - We implemented the Google Assistant API technology that smart mirrors utilize into an infinity mirror.</p>
-	      <p>Motivation - To make something cool and practical in everyday life.</p>
-	      <p>Conclusion - We never expected how difficult it would be having to change our plan when an unexpected challenge arised such as the lights we needed being out of stock.</p>
-	      <p> Explantion - The code segment to the left shows how our Google API functioned once an activation phrase was spoken. The Google Assistant would then say that it is listening and wait until a response was spoken or timer shuts off the assistant. Google would then complete the request if given one and then shut down.</p>
-	    </div>
-	  </div>
-	</div>
-	<div id="Fingerprints" class="tabcontent">
-	     <h1 style="text-align: center;">The Use of "Fingerprints" In HTTPS Cyber Security</h1>
+	<div>
+	 <h1 style="text-align: center;">The Use of "Fingerprints" In HTTPS Cyber Security</h1>
 	     <ul>
 	       <li><a href="#introduction" style="color:white">Introduction</a></li>
 	       <li><a href="#cybersecurity" style="color:white">Cyber Security</a></li>
@@ -129,26 +40,6 @@
 		<p style="text-indent: -36px; padding-left: 36px;"><em>Oxford languages and google - english.</em> Oxford Languages. (n.d.). Retrieved August 25, 2022, from https://languages.oup.com/google-dictionary-en/</p>
 		<p style="text-indent: -36px; padding-left: 36px;">Steve Gibson, G. I. B. S. O. N. R. E. S. E. A. R. C. H. C. O. R. P. O. R. A. T. I. O. N. (n.d.). <em>GRC :  SSL TLS HTTPS web server certificate fingerprints  .</em>GRC | SSL TLS HTTPS Web Server Certificate Fingerprints  . Retrieved August 25, 2022, from https://www.grc.com/fingerprints.htm#top</p>
 	     <a id="to-top" href="#">Back to top</a>
-	  </div>
-	  <script>
-	    function openPage(pageName,elmnt,color) {
-		var i, tabcontent, tablinks;
-		tabcontent = document.getElementsByClassName("tabcontent");
-		for (i = 0; i < tabcontent.length; i++) {
-		    tabcontent[i].style.display = "none";
-		}
-		tablinks = document.getElementsByClassName("tablink");
-		for (i = 0; i < tablinks.length; i++) {
-		}
-		document.getElementById(pageName).style.display = "block";
-	    }
-	    
-	    document.getElementById("defaultOpen").click();
-	    
-	  </script>
-	  
-	  
-  </body>
-</html>
-
-<!-- View my portfolio at : AlanRoybal.github.io -->
+	     </div>
+	</div>
+</body>
