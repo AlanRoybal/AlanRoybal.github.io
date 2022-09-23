@@ -97,25 +97,6 @@ header h4 {
     font-size: 1.6rem;
 }
 
-.intro {
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #161616;
-    transition: 3s;
-}
-
-.logo-header {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -145,5 +126,5 @@ html {
 }
 
 .centertxt {
-    text-align:center;
+    text-align: center;
 }
