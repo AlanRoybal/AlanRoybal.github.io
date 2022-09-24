@@ -135,3 +135,7 @@ html {
     border-radius: 20px;
     cursor: pointer;
 }
+
+.centertxt {
+    text-align: center;
+}
