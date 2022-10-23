@@ -1,171 +1,123 @@
-body{
-    background-color: powderblue;
+style {
+    display: block;
 }
 
-table{
+* {box-sizing: border-box}
+body, html {
+    height: 100%;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #193634;
+}
+
+.btn-group .button{
+    background-color: white;
+    border: none;
+    color: #3a6562;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;}
+
+.tablink .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    color: #C4A484;
+   }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.phome {
+    text-align: center;
+    font-size: 26px;
+}
+
+.aboutme {
+    text-align: center;
+    font-size: 26px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    background-color: #298EBF;
-    margin-left: 0px;
-    margin-right: 0px;
-    position: sticky;
 }
 
-.centertxt{
+header h4 {
+    position: absolute;
+    left: 10%;
+    bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#to-top {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+#to-top:hover {
+    background-color: #FADFCA;
+}
+
+#to-top {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #3a6562;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.centertxt {
     text-align: center;
 }
-
-.centerImage{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-
-
-  h1{
-      font-size: 50px;
-      font-family: "Trebuchet MS";
-  }
-
-  button{
-      border: none;
-      background-color: #298EBF;
-      font-size: 16px;
-      font-family: "Courier New";
-  }
-
-  button:hover{
-      color: white;
-      transition: 0.5s;
-  }
-
-  td{
-      text-align: center;
-      border-collapse: collapse;
-      *width:1%
-  }
-
-  h2{
-      font-size: 35px;
-      font-family: "Courier New";
-  }
-
-  h3{
-      font-size: 28px;
-      font-family: "Courier New";
-  }
-
-  h4{
-      font-size: 20px;
-      font-family: "Courier New";
-  }
-
-  p{
-      font-family: "Trebuchet MS";
-      text-indent: 30px;
-  }
-
-
-
-
-  .generalText{
-      margin-left:20%;
-      margin-right:20%;
-      line-height: 1.5;
-      maximum-width: 900px;
-      *text-indent: 25px;
-      *font-size:18px;
-  }
-
-  .generalHeader{
-      margin-left: 10%;
-      line-height: 1;
-  }
-
-
-  .bottom{
-      position: fixed;
-      bottom: -16px;
-      text-align: right;
-      height: 30px;
-      width: 97%;
-      background-color: powderblue;	    
-  }
-
-  .dropDownButton{
-      border: none;
-      background-color: #298EBF;
-      font-size:16px;
-      font-family: "Courier New";
- **     position: relative;
-   **   display:inline-block;
-      
-  }
-
-  .dropDown{
-      position: relative;
-      display: inline-block;
-  }
-
-  .dropDownContent{
-      display: none;
-      position: absolute;
-      right: 0;
-      background-color:#298EBF;
-      z-index:1;
-      
-  }
-
-  .dropDown:hover .dropDownContent {
-      display: block;
-  }
-
-  .dropDown:hover .dropDownButton {
-  }
-
-  .sideBySide {
-      *border: 1px solid rgba(0, 0, 0, 0.8); 
-      display: grid;
-      *padding: 2rem;
-      grid-template-columns: repeat(2, 50%);
-      gap: 1rem;
-      align-items: center;
-      *max-width: 800px;
-      margin-left: 20%;
-      margin-right: 20%;
-      
-    
-  }
-
-  .gridItem{
-      *border: 1px solid rgba(0, 0, 0, 0.8);
-      **text-align: center;
-      font-family: "Trebuchet MS";
-      padding: 5%;
-  }
-
-  img {
-      *max-width: 100%;
-      *height: 50%;
-      *width: auto;
-      max-width: 100%;
-      max-height: 100%;
-      display: block;
-  }
-
-
-  @media only screen and (max-width: 1200px) {
-      .sideBySide {
-	  grid-template-columns: repeat(1, 100%);
-	  align-items: left;
-      }
-
-      .gridItem {
-	  text-align: left;
-	  padding: 0%;
-      }
-
-      .centertxt {
-	  text-align: left;
-      }
-  }
