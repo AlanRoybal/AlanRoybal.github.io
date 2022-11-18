@@ -1,1 +1,123 @@
-dds
+style {
+    display: block;
+}
+
+* {box-sizing: border-box}
+body, html {
+    height: 100%;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #193634;
+}
+
+.btn-group .button{
+    background-color: white;
+    border: none;
+    color: #3a6562;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;}
+
+.tablink .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    color: #C4A484;
+   }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.phome {
+    text-align: center;
+    font-size: 26px;
+}
+
+.aboutme {
+    text-align: center;
+    font-size: 26px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+header h4 {
+    position: absolute;
+    left: 10%;
+    bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#to-top {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+#to-top:hover {
+    background-color: #FADFCA;
+}
+
+#to-top {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #3a6562;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.centertxt {
+    text-align: center;
+}
