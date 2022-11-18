@@ -121,3 +121,8 @@ html {
 .centertxt {
     text-align: center;
 }
+
+.margins {
+    margin-right: 20%;
+    margin-left: 20%
+}
