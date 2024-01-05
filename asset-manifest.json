@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/alanroybal.github.io/static/css/main.4b443505.css",
-    "main.js": "/alanroybal.github.io/static/js/main.4575066a.js",
-    "static/media/logo.svg": "/alanroybal.github.io/static/media/logo.f60c6a70e6a67c62e99619477b3c9b32.svg",
-    "static/media/introbg.png": "/alanroybal.github.io/static/media/introbg.f12c7da6d3e4f12d7dae.png",
-    "index.html": "/alanroybal.github.io/index.html",
-    "static/media/degree.svg": "/alanroybal.github.io/static/media/degree.a036007d8b37a52c4e025a8e35a5ad58.svg",
-    "static/media/contactImg.svg": "/alanroybal.github.io/static/media/contactImg.7136852d2e6bda5feda915caec4135a0.svg",
-    "main.4b443505.css.map": "/alanroybal.github.io/static/css/main.4b443505.css.map",
-    "main.4575066a.js.map": "/alanroybal.github.io/static/js/main.4575066a.js.map"
+    "main.css": "/static/css/main.4b443505.css",
+    "main.js": "/static/js/main.0517b95a.js",
+    "static/media/logo.svg": "/static/media/logo.f60c6a70e6a67c62e99619477b3c9b32.svg",
+    "static/media/introbg.png": "/static/media/introbg.f12c7da6d3e4f12d7dae.png",
+    "index.html": "/index.html",
+    "static/media/degree.svg": "/static/media/degree.a036007d8b37a52c4e025a8e35a5ad58.svg",
+    "static/media/contactImg.svg": "/static/media/contactImg.7136852d2e6bda5feda915caec4135a0.svg",
+    "main.4b443505.css.map": "/static/css/main.4b443505.css.map",
+    "main.0517b95a.js.map": "/static/js/main.0517b95a.js.map"
   },
   "entrypoints": [
     "static/css/main.4b443505.css",
-    "static/js/main.4575066a.js"
+    "static/js/main.0517b95a.js"
   ]
 }
