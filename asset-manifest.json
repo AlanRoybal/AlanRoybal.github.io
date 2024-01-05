@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/alanroybal.github.io/static/css/main.4b443505.css",
+    "main.js": "/alanroybal.github.io/static/js/main.03c0c7f3.js",
+    "static/media/logo.svg": "/alanroybal.github.io/static/media/logo.0565b0b6c80708179574dce0e540419f.svg",
+    "static/media/introbg.png": "/alanroybal.github.io/static/media/introbg.f12c7da6d3e4f12d7dae.png",
+    "index.html": "/alanroybal.github.io/index.html",
+    "static/media/degree.svg": "/alanroybal.github.io/static/media/degree.bb57c7e73cc0549c3f4f10f16e59b0ef.svg",
+    "static/media/contactImg.svg": "/alanroybal.github.io/static/media/contactImg.7136852d2e6bda5feda915caec4135a0.svg",
+    "main.4b443505.css.map": "/alanroybal.github.io/static/css/main.4b443505.css.map",
+    "main.03c0c7f3.js.map": "/alanroybal.github.io/static/js/main.03c0c7f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b443505.css",
+    "static/js/main.03c0c7f3.js"
+  ]
+}
