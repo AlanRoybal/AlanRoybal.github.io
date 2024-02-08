@@ -8,13 +8,15 @@ const Projects = () => {
   return (
     <section id="projects">
         <h2 className="projectsTitle">My Projects</h2>
-        <span className="projectsDesc">yap session</span>
-        <div className="projectsImgs">
+        <span className="projectsDesc">My projects can be found on my Github.</span>
+        {/* <div className="projectsImgs">
           <img src={project1} alt="" className="projectsImg" />
           <img src={project2} alt="" className="projectsImg" />
           <img src={project3} alt="" className="projectsImg" />
-        </div>
-        <button className="projectBtn">See More</button>
+        </div> */}
+        <a href="https://github.com/AlanRoybal">
+          <button className="projectBtn">See More</button>
+        </a>
     </section>
   )
 }
