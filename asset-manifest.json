@@ -1,7 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.c2fb1c9e.css",
-    "main.js": "/static/js/main.9d5c483d.js",
+    "main.js": "/static/js/main.fee2f3df.js",
+    "static/media/hobby3.png": "/static/media/hobby3.02fa80727f0a9fbd7b35.png",
+    "static/media/hobby2.png": "/static/media/hobby2.bb7aad4bc569fd265509.png",
+    "static/media/hobby1.png": "/static/media/hobby1.d47b1ce3a6420f8c2a6d.png",
     "static/media/logo.svg": "/static/media/logo.f60c6a70e6a67c62e99619477b3c9b32.svg",
     "static/media/introbg.png": "/static/media/introbg.f12c7da6d3e4f12d7dae.png",
     "static/media/InstagramIcon.svg": "/static/media/InstagramIcon.91084741d108d56af3316af30168910a.svg",
@@ -13,10 +16,10 @@
     "static/media/menu.svg": "/static/media/menu.74e8cff8ab28cd26daae85342f3a6d5d.svg",
     "static/media/LinkedInIcon.svg": "/static/media/LinkedInIcon.48f4acce54e78738c735465f55f1ae7f.svg",
     "main.c2fb1c9e.css.map": "/static/css/main.c2fb1c9e.css.map",
-    "main.9d5c483d.js.map": "/static/js/main.9d5c483d.js.map"
+    "main.fee2f3df.js.map": "/static/js/main.fee2f3df.js.map"
   },
   "entrypoints": [
     "static/css/main.c2fb1c9e.css",
-    "static/js/main.9d5c483d.js"
+    "static/js/main.fee2f3df.js"
   ]
 }
