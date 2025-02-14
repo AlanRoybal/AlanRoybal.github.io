@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 
-const phrases = [
-  "No"
-];
-
 const buttonStyle = {
   padding: "12px 40px",
   margin: "10px",
@@ -31,9 +27,6 @@ const Buttons = () => {
   const [index, setIndex] = useState(0);
   const [celebrate, setCelebrate] = useState(false);
 
-  const handleNoClick = () => {
-    setIndex((prevIndex) => (prevIndex + 1) % phrases.length);
-  };
 
   const handleYesClick = () => {
     setCelebrate(true);
@@ -49,7 +42,7 @@ const Buttons = () => {
         <>
           <p>Be my Valentine?</p>
           <button onClick={handleYesClick} style={yesButtonStyle}>Yes</button>
-          <button onClick={handleNoClick} style={noButtonStyle}>{phrases[index]}</button>
+          <button style={noButtonStyle}>No</button>
         </>
       )}
     </div>
